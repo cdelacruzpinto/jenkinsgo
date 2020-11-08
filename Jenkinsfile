@@ -19,7 +19,7 @@ spec:
     - cat
     tty: true
     volumeMounts:
-      - mountPath: "/go
+      - mountPath: "/go"
         name: m2
   - name: docker
     image: docker:latest
